@@ -1,0 +1,56 @@
+# Project data and generated artifacts
+/data/
+/models/
+/transformer/
+/submissions/
+/experiments/
+
+# Serialized data and model checkpoints
+*.parquet
+*.feather
+*.arrow
+*.zip
+*.gz
+*.7z
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.cbm
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Customer-level predictions (retain reviewed aggregate CSV reports)
+/reports/*predictions*
+/reports/**/*predictions*
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+access_token
+.kaggle/
+*.pem
+*.key
+
+# Python / Jupyter / experiment caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+catboost_info/
+wandb/
+runs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
